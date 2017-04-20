@@ -18,8 +18,8 @@
           "class" : "Label",
           "alignment" : "left",
           "text" : "Car IP Address:",
-          "font_size" : 18,
-          "name" : ""
+          "name" : "",
+          "font_size" : 18
         }
       },
       {
@@ -38,8 +38,8 @@
           "alignment" : "left",
           "text" : "192.168.1.10",
           "autocorrection_type" : "default",
-          "font_size" : 17,
-          "name" : "txt_ip_addr"
+          "name" : "txt_ip_addr",
+          "font_size" : 17
         }
       },
       {
@@ -72,13 +72,13 @@
           "class" : "Label",
           "alignment" : "left",
           "text" : "Connect",
-          "font_size" : 18,
-          "name" : "label1"
+          "name" : "label1",
+          "font_size" : 18
         }
       },
       {
         "selected" : false,
-        "frame" : "{{345, 265}, {279, 183}}",
+        "frame" : "{{390, 265}, {279, 183}}",
         "class" : "View",
         "nodes" : [
 
@@ -98,13 +98,13 @@
 
         ],
         "attributes" : {
-          "name" : "label2",
+          "font_size" : 18,
           "frame" : "{{437, 368}, {150, 32}}",
           "uuid" : "DBE6EC33-66E0-4BC3-A31E-470FBF395667",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Status",
-          "font_size" : 18,
+          "name" : "label2",
           "font_name" : "<System>"
         }
       },
@@ -116,13 +116,13 @@
 
         ],
         "attributes" : {
-          "name" : "label3",
+          "font_size" : 18,
           "frame" : "{{437, 368}, {150, 32}}",
           "uuid" : "F8C443E5-7566-43CC-9AAC-9020C34332B9",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Auto Update",
-          "font_size" : 18,
+          "name" : "label3",
           "font_name" : "<System>"
         }
       },
@@ -162,90 +162,90 @@
       },
       {
         "selected" : false,
-        "frame" : "{{345, 498}, {71, 63}}",
+        "frame" : "{{390, 498}, {71, 63}}",
         "class" : "Button",
         "nodes" : [
 
         ],
         "attributes" : {
           "action" : "sw_turn_action",
-          "font_size" : 26,
+          "name" : "button2",
           "frame" : "{{472, 368}, {80, 32}}",
           "title" : "45 deg",
           "uuid" : "EE8F5F16-8F79-4310-BA08-8B28AB26258C",
           "class" : "Button",
           "custom_attributes" : "{\n\t'angle': '-45'\n}",
-          "name" : "button2",
+          "font_size" : 26,
           "image_name" : "iob:arrow_left_c_256"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{345, 594}, {71, 63}}",
+        "frame" : "{{390, 578}, {71, 63}}",
         "class" : "Button",
         "nodes" : [
 
         ],
         "attributes" : {
           "action" : "sw_turn_action",
-          "name" : "button2",
+          "font_size" : 26,
           "frame" : "{{472, 368}, {80, 32}}",
           "title" : "45 deg",
           "uuid" : "EE8F5F16-8F79-4310-BA08-8B28AB26258C",
           "class" : "Button",
           "custom_attributes" : "{\n\t'angle': '-90'\n}",
-          "font_size" : 26,
+          "name" : "button2",
           "image_name" : "iob:arrow_left_a_256"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{541, 498}, {73, 63}}",
+        "frame" : "{{596, 498}, {73, 63}}",
         "class" : "Button",
         "nodes" : [
 
         ],
         "attributes" : {
           "action" : "sw_turn_action",
-          "name" : "button2",
+          "font_size" : 26,
           "frame" : "{{472, 368}, {80, 32}}",
           "title" : "45 deg",
           "uuid" : "EE8F5F16-8F79-4310-BA08-8B28AB26258C",
           "class" : "Button",
           "custom_attributes" : "{\n\t'angle': '45'\n}",
-          "font_size" : 26,
+          "name" : "button2",
           "image_name" : "iob:arrow_right_c_256"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{548, 594}, {66, 63}}",
+        "frame" : "{{596, 578}, {73, 63}}",
         "class" : "Button",
         "nodes" : [
 
         ],
         "attributes" : {
           "action" : "sw_turn_action",
-          "name" : "button2",
+          "font_size" : 26,
           "frame" : "{{472, 368}, {80, 32}}",
           "title" : "45 deg",
           "uuid" : "EE8F5F16-8F79-4310-BA08-8B28AB26258C",
           "class" : "Button",
           "custom_attributes" : "{\n\t'angle': '90'\n}",
-          "font_size" : 26,
+          "name" : "button2",
           "image_name" : "iob:arrow_right_a_256"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{65, 265}, {228, 462}}",
+        "frame" : "{{65, 265}, {242, 462}}",
         "class" : "TextView",
         "nodes" : [
 
         ],
         "attributes" : {
           "flex" : "WH",
-          "font_name" : "<System>",
+          "font_name" : "Menlo-Regular",
           "editable" : false,
           "frame" : "{{412, 284}, {200, 200}}",
           "spellchecking_type" : "default",
@@ -253,8 +253,8 @@
           "uuid" : "3EF5E4E9-5AD9-497C-A2C3-B29CCD6CE6B1",
           "alignment" : "left",
           "autocorrection_type" : "default",
-          "name" : "txt_log",
-          "font_size" : 17
+          "font_size" : 12,
+          "name" : "txt_log"
         }
       },
       {

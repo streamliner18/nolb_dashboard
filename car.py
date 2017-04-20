@@ -5,10 +5,13 @@ from simplejson import loads
 class Car():
 	def __init__(self):
 		self.connected = False
+		self.executing = False
 	def connect(self,ip_addr='', really=False):
-		if really:
+		if really and (not self.executing):
 			self.session = Session()
+			self.executing = True
 			r = self.session.get('http://'+ip_addr+'/status')
+			self.executing = False
 			assert r.status_code == 200
 			self.connected = True
 			self.ip_addr = 'http://'+ip_addr+'/'
@@ -16,11 +19,17 @@ class Car():
 			self.session = None
 			self.connected = False
 	def exec_function(self, action, **kwargs):
-		assert self.connected
+		assert self.connected and not self.executing
 		connection_string = self.ip_addr+action
 		if len(kwargs) > 0:
 			connection_string += '?' + ','.join([k+'='+v for k,v in kwargs.items()])
-		r = self.session.get(connection_string);
+		try:
+			self.executing = True
+			r = self.session.get(connection_string);
+			self.executing = False
+		except Exception as e:
+			self.executing = False
+			raise(e)
 		assert r.status_code == 200
 		return loads(r.content)
 		
