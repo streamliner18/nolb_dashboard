@@ -12,14 +12,14 @@
 
         ],
         "attributes" : {
-          "name" : "",
+          "font_name" : "<System>",
           "frame" : "{{437, 368}, {150, 32}}",
           "uuid" : "D1258FB7-3E1F-4759-94FA-B57267453E86",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Car IP Address:",
           "font_size" : 18,
-          "font_name" : "<System>"
+          "name" : ""
         }
       },
       {
@@ -30,7 +30,7 @@
 
         ],
         "attributes" : {
-          "name" : "txt_ip_addr",
+          "font_name" : "<System>",
           "frame" : "{{412, 368}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
@@ -39,7 +39,7 @@
           "text" : "192.168.1.10",
           "autocorrection_type" : "default",
           "font_size" : 17,
-          "font_name" : "<System>"
+          "name" : "txt_ip_addr"
         }
       },
       {
@@ -50,12 +50,12 @@
 
         ],
         "attributes" : {
-          "uuid" : "4BB86E6D-E4EC-4522-AAAC-7C0FDAE44468",
+          "action" : "sw_connect_action",
           "frame" : "{{487, 369}, {51, 31}}",
           "value" : false,
           "class" : "Switch",
           "name" : "sw_connect",
-          "action" : "sw_connect_action"
+          "uuid" : "4BB86E6D-E4EC-4522-AAAC-7C0FDAE44468"
         }
       },
       {
@@ -66,14 +66,14 @@
 
         ],
         "attributes" : {
-          "name" : "label1",
+          "font_name" : "<System>",
           "frame" : "{{437, 368}, {150, 32}}",
           "uuid" : "42C435DC-5028-4A12-95AD-9C2300F65669",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Connect",
           "font_size" : 18,
-          "font_name" : "<System>"
+          "name" : "label1"
         }
       },
       {
@@ -92,43 +92,43 @@
       },
       {
         "selected" : false,
-        "frame" : "{{65, 147}, {150, 31}}",
+        "frame" : "{{65, 127}, {150, 31}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
-          "font_name" : "<System>",
+          "name" : "label2",
           "frame" : "{{437, 368}, {150, 32}}",
           "uuid" : "DBE6EC33-66E0-4BC3-A31E-470FBF395667",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Status",
-          "name" : "label2",
-          "font_size" : 18
+          "font_size" : 18,
+          "font_name" : "<System>"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{65, 187}, {110, 32}}",
+        "frame" : "{{65, 166}, {110, 32}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
-          "font_name" : "<System>",
+          "name" : "label3",
           "frame" : "{{437, 368}, {150, 32}}",
           "uuid" : "F8C443E5-7566-43CC-9AAC-9020C34332B9",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Auto Update",
-          "name" : "label3",
-          "font_size" : 18
+          "font_size" : 18,
+          "font_name" : "<System>"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{183, 188}, {51, 31}}",
+        "frame" : "{{183, 167}, {51, 31}}",
         "class" : "Switch",
         "nodes" : [
 
@@ -143,7 +143,7 @@
       },
       {
         "selected" : false,
-        "frame" : "{{65, 227}, {169, 30}}",
+        "frame" : "{{65, 206}, {110, 30}}",
         "class" : "Button",
         "nodes" : [
 
@@ -161,7 +161,7 @@
         }
       },
       {
-        "selected" : true,
+        "selected" : false,
         "frame" : "{{345, 498}, {71, 63}}",
         "class" : "Button",
         "nodes" : [
@@ -169,14 +169,14 @@
         ],
         "attributes" : {
           "action" : "sw_turn_action",
-          "image_name" : "iob:arrow_left_c_256",
+          "font_size" : 26,
           "frame" : "{{472, 368}, {80, 32}}",
           "title" : "45 deg",
           "uuid" : "EE8F5F16-8F79-4310-BA08-8B28AB26258C",
           "class" : "Button",
           "custom_attributes" : "{\n\t'angle': '-45'\n}",
-          "font_size" : 26,
-          "name" : "button2"
+          "name" : "button2",
+          "image_name" : "iob:arrow_left_c_256"
         }
       },
       {
@@ -188,14 +188,14 @@
         ],
         "attributes" : {
           "action" : "sw_turn_action",
-          "image_name" : "iob:arrow_left_a_256",
+          "name" : "button2",
           "frame" : "{{472, 368}, {80, 32}}",
           "title" : "45 deg",
           "uuid" : "EE8F5F16-8F79-4310-BA08-8B28AB26258C",
           "class" : "Button",
           "custom_attributes" : "{\n\t'angle': '-90'\n}",
-          "name" : "button2",
-          "font_size" : 26
+          "font_size" : 26,
+          "image_name" : "iob:arrow_left_a_256"
         }
       },
       {
@@ -207,14 +207,14 @@
         ],
         "attributes" : {
           "action" : "sw_turn_action",
-          "image_name" : "iob:arrow_right_c_256",
+          "name" : "button2",
           "frame" : "{{472, 368}, {80, 32}}",
           "title" : "45 deg",
           "uuid" : "EE8F5F16-8F79-4310-BA08-8B28AB26258C",
           "class" : "Button",
           "custom_attributes" : "{\n\t'angle': '45'\n}",
-          "name" : "button2",
-          "font_size" : 26
+          "font_size" : 26,
+          "image_name" : "iob:arrow_right_c_256"
         }
       },
       {
@@ -226,14 +226,55 @@
         ],
         "attributes" : {
           "action" : "sw_turn_action",
-          "image_name" : "iob:arrow_right_a_256",
+          "name" : "button2",
           "frame" : "{{472, 368}, {80, 32}}",
           "title" : "45 deg",
           "uuid" : "EE8F5F16-8F79-4310-BA08-8B28AB26258C",
           "class" : "Button",
           "custom_attributes" : "{\n\t'angle': '90'\n}",
-          "name" : "button2",
-          "font_size" : 26
+          "font_size" : 26,
+          "image_name" : "iob:arrow_right_a_256"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{65, 265}, {228, 462}}",
+        "class" : "TextView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WH",
+          "font_name" : "<System>",
+          "editable" : false,
+          "frame" : "{{412, 284}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "3EF5E4E9-5AD9-497C-A2C3-B29CCD6CE6B1",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "txt_log",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{183, 206}, {110, 30}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "sw_clear_log_action",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Clear Log",
+          "uuid" : "E5E38E30-1A52-49EF-8B23-AA895571A725",
+          "border_color" : "RGBA(0.066667,0.066667,1.000000,1.000000)",
+          "class" : "Button",
+          "font_bold" : false,
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "btn_clear_log",
+          "font_size" : 15
         }
       }
     ],
