@@ -6,7 +6,98 @@
     "nodes" : [
       {
         "selected" : false,
-        "frame" : "{{205, 217}, {126, 30}}",
+        "frame" : "{{390, 468}, {244, 204}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{462, 334}, {100, 100}}",
+          "border_color" : "RGBA(-0.033333,-0.033333,1.000000,1.000000)",
+          "corner_radius" : 3,
+          "class" : "View",
+          "uuid" : "2B2D75D7-CA8A-4EC4-A495-19B5A2046125",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : ""
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{390, 180}, {597, 195}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 2,
+          "frame" : "{{462, 334}, {100, 100}}",
+          "border_color" : "RGBA(0.686321,0.686321,0.686321,1.000000)",
+          "background_color" : "RGBA(0.936321,0.936321,0.936321,1.000000)",
+          "class" : "View",
+          "uuid" : "1DE574D4-9440-42E2-B378-74BDC6E64A6C",
+          "corner_radius" : 5,
+          "name" : "view3"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{855, 234}, {114, 113}}",
+        "class" : "ImageView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "alpha" : 0,
+          "border_width" : 0,
+          "tint_color" : "RGBA(1.000000,-0.033333,-0.033333,1.000000)",
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "ImageView",
+          "uuid" : "1D729989-2541-4763-823B-C708711DF5E8",
+          "corner_radius" : 0,
+          "name" : "img_tcas_triggered",
+          "image_name" : "iob:ios7_bolt_outline_256"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{864, 196}, {123, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "1BF98BBB-C5D1-4FDB-BCA3-890ED031291C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "TCAS",
+          "font_size" : 20,
+          "name" : "label7"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{27, 31}, {968, 60}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 2,
+          "frame" : "{{462, 334}, {100, 100}}",
+          "border_color" : "RGBA(1.000000,1.033333,1.033333,1.000000)",
+          "corner_radius" : 5,
+          "class" : "View",
+          "uuid" : "AEBCA5A0-4E7F-4BED-A271-4C9498B403BC",
+          "background_color" : "RGBA(0.941038,0.941038,0.941038,1.000000)",
+          "name" : "view2"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{205, 159}, {126, 30}}",
         "class" : "Button",
         "nodes" : [
 
@@ -28,7 +119,7 @@
       },
       {
         "selected" : false,
-        "frame" : "{{817, 236}, {112, 113}}",
+        "frame" : "{{864, 226}, {111, 113}}",
         "class" : "ImageView",
         "nodes" : [
 
@@ -44,50 +135,31 @@
       },
       {
         "selected" : false,
-        "frame" : "{{817, 236}, {112, 113}}",
-        "class" : "ImageView",
-        "nodes" : [
-
-        ],
-        "attributes" : {
-          "alpha" : 0,
-          "border_width" : 0,
-          "tint_color" : "RGBA(1.000000,-0.033333,-0.033333,1.000000)",
-          "frame" : "{{462, 334}, {100, 100}}",
-          "class" : "ImageView",
-          "uuid" : "1D729989-2541-4763-823B-C708711DF5E8",
-          "corner_radius" : 0,
-          "name" : "img_tcas_triggered",
-          "image_name" : "iob:ios7_bolt_outline_256"
-        }
-      },
-      {
-        "selected" : false,
-        "frame" : "{{65, 58}, {150, 32}}",
+        "frame" : "{{47, 46}, {150, 32}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
-          "name" : "",
+          "font_size" : 18,
           "frame" : "{{437, 368}, {150, 32}}",
           "uuid" : "D1258FB7-3E1F-4759-94FA-B57267453E86",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Car IP Address:",
-          "font_size" : 18,
+          "name" : "",
           "font_name" : "<System>"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{243, 58}, {404, 32}}",
+        "frame" : "{{205, 46}, {404, 32}}",
         "class" : "TextField",
         "nodes" : [
 
         ],
         "attributes" : {
-          "name" : "txt_ip_addr",
+          "font_size" : 17,
           "frame" : "{{412, 368}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
@@ -95,13 +167,13 @@
           "alignment" : "left",
           "text" : "192.168.1.10",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "txt_ip_addr",
           "font_name" : "<System>"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{840, 60}, {51, 31}}",
+        "frame" : "{{911, 47}, {51, 31}}",
         "class" : "Switch",
         "nodes" : [
 
@@ -117,57 +189,42 @@
       },
       {
         "selected" : false,
-        "frame" : "{{743, 60}, {78, 32}}",
+        "frame" : "{{818, 47}, {78, 32}}",
         "class" : "Label",
         "nodes" : [
 
         ],
         "attributes" : {
-          "name" : "label1",
+          "font_size" : 18,
           "frame" : "{{437, 368}, {150, 32}}",
           "uuid" : "42C435DC-5028-4A12-95AD-9C2300F65669",
           "class" : "Label",
           "alignment" : "left",
           "text" : "Connect",
-          "font_size" : 18,
+          "name" : "label1",
           "font_name" : "<System>"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{390, 350}, {299, 40}}",
+        "frame" : "{{422, 334}, {405, 23}}",
         "class" : "View",
         "nodes" : [
 
         ],
         "attributes" : {
+          "border_width" : 2,
           "frame" : "{{462, 334}, {100, 100}}",
+          "border_color" : "RGBA(0.630896,0.672956,0.757075,1.000000)",
+          "corner_radius" : 0,
           "class" : "View",
-          "name" : "view1",
-          "uuid" : "3379501F-D211-4F59-A8CF-40F4687B516E"
+          "uuid" : "3379501F-D211-4F59-A8CF-40F4687B516E",
+          "name" : "view1"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{65, 134}, {150, 31}}",
-        "class" : "Label",
-        "nodes" : [
-
-        ],
-        "attributes" : {
-          "font_name" : "<System>",
-          "frame" : "{{437, 368}, {150, 32}}",
-          "uuid" : "DBE6EC33-66E0-4BC3-A31E-470FBF395667",
-          "class" : "Label",
-          "alignment" : "left",
-          "text" : "Status",
-          "name" : "label2",
-          "font_size" : 18
-        }
-      },
-      {
-        "selected" : false,
-        "frame" : "{{65, 177}, {213, 32}}",
+        "frame" : "{{27, 113}, {213, 32}}",
         "class" : "Label",
         "nodes" : [
 
@@ -179,13 +236,13 @@
           "class" : "Label",
           "alignment" : "left",
           "text" : "Automatic Timer Update",
-          "name" : "label3",
-          "font_size" : 18
+          "font_size" : 18,
+          "name" : "label3"
         }
       },
       {
-        "selected" : true,
-        "frame" : "{{280, 177}, {51, 31}}",
+        "selected" : false,
+        "frame" : "{{280, 113}, {51, 31}}",
         "class" : "Switch",
         "nodes" : [
 
@@ -201,7 +258,7 @@
       },
       {
         "selected" : false,
-        "frame" : "{{65, 217}, {132, 30}}",
+        "frame" : "{{27, 160}, {132, 30}}",
         "class" : "Button",
         "nodes" : [
 
@@ -213,6 +270,7 @@
           "frame" : "{{472, 368}, {80, 32}}",
           "border_color" : "RGBA(0.066667,0.066667,1.000000,1.000000)",
           "border_width" : 1,
+          "custom_attributes" : "{\"nc\": True}",
           "title" : "Force Update",
           "action" : "sw_update_action",
           "font_bold" : false,
@@ -223,7 +281,7 @@
       },
       {
         "selected" : false,
-        "frame" : "{{390, 498}, {71, 63}}",
+        "frame" : "{{674, 521}, {71, 63}}",
         "class" : "Button",
         "nodes" : [
 
@@ -236,13 +294,13 @@
           "uuid" : "EE8F5F16-8F79-4310-BA08-8B28AB26258C",
           "class" : "Button",
           "custom_attributes" : "{\n\t'angle': '-45'\n}",
-          "font_size" : 26,
-          "name" : "button2"
+          "name" : "button2",
+          "font_size" : 26
         }
       },
       {
         "selected" : false,
-        "frame" : "{{390, 578}, {71, 63}}",
+        "frame" : "{{674, 600}, {71, 63}}",
         "class" : "Button",
         "nodes" : [
 
@@ -255,13 +313,13 @@
           "uuid" : "EE8F5F16-8F79-4310-BA08-8B28AB26258C",
           "class" : "Button",
           "custom_attributes" : "{\n\t'angle': '-90'\n}",
-          "name" : "button2",
-          "font_size" : 26
+          "font_size" : 26,
+          "name" : "button2"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{596, 498}, {73, 63}}",
+        "frame" : "{{901, 521}, {73, 63}}",
         "class" : "Button",
         "nodes" : [
 
@@ -274,13 +332,13 @@
           "uuid" : "EE8F5F16-8F79-4310-BA08-8B28AB26258C",
           "class" : "Button",
           "custom_attributes" : "{\n\t'angle': '45'\n}",
-          "name" : "button2",
-          "font_size" : 26
+          "font_size" : 26,
+          "name" : "button2"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{596, 578}, {73, 63}}",
+        "frame" : "{{901, 600}, {74, 63}}",
         "class" : "Button",
         "nodes" : [
 
@@ -293,20 +351,20 @@
           "uuid" : "EE8F5F16-8F79-4310-BA08-8B28AB26258C",
           "class" : "Button",
           "custom_attributes" : "{\n\t'angle': '90'\n}",
-          "name" : "button2",
-          "font_size" : 26
+          "font_size" : 26,
+          "name" : "button2"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{65, 265}, {266, 462}}",
+        "frame" : "{{27, 210}, {304, 462}}",
         "class" : "TextView",
         "nodes" : [
 
         ],
         "attributes" : {
           "uuid" : "3EF5E4E9-5AD9-497C-A2C3-B29CCD6CE6B1",
-          "flex" : "WH",
+          "flex" : "",
           "corner_radius" : 0,
           "frame" : "{{412, 284}, {200, 200}}",
           "editable" : false,
@@ -322,33 +380,44 @@
       },
       {
         "selected" : false,
-        "frame" : "{{407, 134}, {80, 32}}",
+        "frame" : "{{855, 391}, {131, 45}}",
         "class" : "Button",
         "nodes" : [
 
         ],
         "attributes" : {
           "action" : "sw_steer_action",
+          "border_width" : 1,
           "frame" : "{{472, 368}, {80, 32}}",
           "title" : "Go",
           "uuid" : "B8D56522-54F5-4440-98BA-721A24529FF0",
           "class" : "Button",
+          "corner_radius" : 3,
+          "border_color" : "RGBA(-0.033333,0.311111,1.000000,1.000000)",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "name" : "button3",
           "font_size" : 15
         }
       },
       {
         "selected" : false,
-        "frame" : "{{567, 134}, {80, 32}}",
+        "frame" : "{{711, 113}, {126, 45}}",
         "class" : "Button",
         "nodes" : [
 
         ],
         "attributes" : {
-          "action" : "sw_stop_action",
-          "frame" : "{{472, 368}, {80, 32}}",
-          "title" : "Stop",
           "uuid" : "A0DC82FB-5225-43D2-AC97-823075ED7B81",
+          "image_name" : "iob:ios7_minus_outline_24",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(1.000000,1.044444,1.033333,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "border_color" : "RGBA(1.000000,0.355556,0.033333,1.000000)",
+          "border_width" : 1,
+          "tint_color" : "RGBA(1.000000,0.422222,0.133333,1.000000)",
+          "custom_attributes" : "",
+          "title" : "Stop",
+          "action" : "sw_stop_action",
           "class" : "Button",
           "name" : "button4",
           "font_size" : 15
@@ -356,7 +425,7 @@
       },
       {
         "selected" : false,
-        "frame" : "{{390, 247}, {123, 83}}",
+        "frame" : "{{422, 234}, {123, 83}}",
         "class" : "Label",
         "nodes" : [
 
@@ -368,13 +437,13 @@
           "class" : "Label",
           "alignment" : "left",
           "text" : "8",
-          "name" : "lbl_speed",
-          "font_size" : 72
+          "font_size" : 72,
+          "name" : "lbl_speed"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{390, 207}, {123, 32}}",
+        "frame" : "{{422, 196}, {123, 32}}",
         "class" : "Label",
         "nodes" : [
 
@@ -386,13 +455,13 @@
           "class" : "Label",
           "alignment" : "left",
           "text" : "Speed",
-          "name" : "label5",
-          "font_size" : 18
+          "font_size" : 20,
+          "name" : "label5"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{558, 207}, {219, 32}}",
+        "frame" : "{{596, 196}, {219, 32}}",
         "class" : "Label",
         "nodes" : [
 
@@ -404,13 +473,13 @@
           "class" : "Label",
           "alignment" : "left",
           "text" : "Steps",
-          "font_size" : 18,
-          "name" : "labl6"
+          "name" : "labl6",
+          "font_size" : 20
         }
       },
       {
         "selected" : false,
-        "frame" : "{{558, 247}, {218, 83}}",
+        "frame" : "{{596, 234}, {218, 83}}",
         "class" : "Label",
         "nodes" : [
 
@@ -422,13 +491,55 @@
           "class" : "Label",
           "alignment" : "left",
           "text" : "32767",
-          "font_size" : 72,
-          "name" : "lbl_steps"
+          "name" : "lbl_steps",
+          "font_size" : 72
         }
       },
       {
         "selected" : false,
-        "frame" : "{{817, 207}, {123, 32}}",
+        "frame" : "{{861, 113}, {126, 45}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "A0DC82FB-5225-43D2-AC97-823075ED7B81",
+          "name" : "button4",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(1.000000,1.044444,1.033333,1.000000)",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "border_color" : "RGBA(1.000000,0.033333,0.033333,1.000000)",
+          "border_width" : 1,
+          "tint_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+          "custom_attributes" : "{'endpoint': 'status\/force-obstacle'}",
+          "title" : "Stop",
+          "action" : "sw_general_action",
+          "font_bold" : false,
+          "class" : "Button",
+          "image_name" : "iob:flash_24",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{605, 400}, {222, 34}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "sl_speed_action",
+          "flex" : "W",
+          "frame" : "{{412, 367}, {200, 34}}",
+          "uuid" : "577F6ABE-1BE1-4DA5-B1D6-D69B846F601C",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "slider1"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{543, 400}, {54, 36}}",
         "class" : "Label",
         "nodes" : [
 
@@ -436,21 +547,258 @@
         "attributes" : {
           "font_name" : "<System>",
           "frame" : "{{437, 368}, {150, 32}}",
-          "uuid" : "1BF98BBB-C5D1-4FDB-BCA3-890ED031291C",
+          "uuid" : "DC955511-1922-43E9-BECD-5D2755677965",
           "class" : "Label",
           "alignment" : "left",
-          "text" : "TCAS",
-          "name" : "label7",
+          "text" : "0",
+          "name" : "lbl_speed_f",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{390, 391}, {130, 45}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "EF235550-2B96-407D-9EA0-C51CF6B7EFCB",
+          "corner_radius" : 2,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "border_width" : 1,
+          "border_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "custom_attributes" : "{\"nc\": False}",
+          "title" : "Clear Status",
+          "action" : "sw_update_action",
+          "class" : "Button",
+          "name" : "button5",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{413, 533}, {62, 34}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "title" : "On",
+          "uuid" : "A2D21843-D696-4FDE-8794-CA34DD5B766E",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "name" : "button6",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{413, 575}, {62, 34}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "title" : "On",
+          "uuid" : "A2D21843-D696-4FDE-8794-CA34DD5B766E",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "name" : "button6",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{413, 617}, {62, 34}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "title" : "On",
+          "uuid" : "A2D21843-D696-4FDE-8794-CA34DD5B766E",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "name" : "button6",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{483, 533}, {62, 34}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "title" : "Off",
+          "uuid" : "A2D21843-D696-4FDE-8794-CA34DD5B766E",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.689859,0.735849,0.735849,1.000000)",
+          "name" : "button6",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{483, 575}, {62, 34}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "title" : "Off",
+          "uuid" : "A2D21843-D696-4FDE-8794-CA34DD5B766E",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.689859,0.735849,0.735849,1.000000)",
+          "name" : "button6",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{483, 617}, {62, 34}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "frame" : "{{472, 368}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,0.333333,0.000000,1.000000)",
+          "title" : "Off",
+          "uuid" : "A2D21843-D696-4FDE-8794-CA34DD5B766E",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "border_color" : "RGBA(0.689859,0.735849,0.735849,1.000000)",
+          "name" : "button6",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{567, 533}, {58, 34}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "BA5F1DC3-1B6E-4147-B4C1-43E9122E96CF",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "ADAS",
+          "name" : "label2",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{567, 575}, {58, 34}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "BA5F1DC3-1B6E-4147-B4C1-43E9122E96CF",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "OBS1",
+          "font_size" : 18,
+          "name" : "label2"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{567, 617}, {58, 34}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "BA5F1DC3-1B6E-4147-B4C1-43E9122E96CF",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "OBS2",
+          "font_size" : 18,
+          "name" : "label2"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{413, 485}, {202, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "AppleSDGothicNeo-Bold",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "E0A616D9-938D-4191-9DE4-FD8BCCBE61D8",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "System Control",
+          "name" : "label4",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{390, 113}, {295, 45}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "10DB0DCC-7774-440E-B0A3-E992C574F0E0",
+          "corner_radius" : 0,
+          "frame" : "{{437, 368}, {150, 32}}",
+          "border_color" : "RGBA(0.333333,0.000000,1.000000,1.000000)",
+          "border_width" : 2,
+          "alignment" : "center",
+          "text_color" : "RGBA(-0.033333,-0.033333,1.000000,1.000000)",
+          "text" : "NOMINAL",
+          "font_name" : "Menlo-Regular",
+          "class" : "Label",
+          "name" : "lbl_state",
           "font_size" : 18
         }
       }
     ],
     "attributes" : {
+      "flex" : "",
       "enabled" : true,
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "Car Control Dashboard",
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "flex" : ""
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
     }
   }
 ]
